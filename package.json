@@ -1,0 +1,23 @@
+{
+  "name": "food-festival-pwa",
+  "version": "1.0.0",
+  "description": "A small project to convert an existing website into an progressive web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cobalt88/food-festival-pwa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cobalt88/food-festival-pwa/issues"
+  },
+  "homepage": "https://github.com/cobalt88/food-festival-pwa#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

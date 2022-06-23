@@ -16,10 +16,12 @@
 
  ## Description 
  
+ Food festival web application that has been converted to a Progressive Web Application
  
  ## Installation Instructions
  
- 
+ The application can be used either online like a normal web page or offline as a locally installable application. Installation instructions will be dependant on your device platform.
+
  ## How To Use
  
  

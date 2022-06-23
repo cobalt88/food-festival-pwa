@@ -13,7 +13,7 @@ module.exports = {
   entry: "./assets/js/script.js",
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: "bundle.js"
+    filename: "main.bundle.js"
   },
 
 }

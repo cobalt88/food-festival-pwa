@@ -15,7 +15,7 @@
   \*****************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("/* provided dependency */ var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n__webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\r\nconst img1 = __webpack_require__(/*! ../../assets/img/food-table.jpg */ \"./assets/img/food-table.jpg\");\r\nconst img2 = __webpack_require__(/*! ../../assets/img/grill.jpg */ \"./assets/img/grill.jpg\");\r\n\r\n$(document).ready(function() {\r\n  // First image is hard coded in index.html\r\n  const carouselSlides = [\r\n    {\r\n      title: \"We travel all over the US\",\r\n      subtitle: \"Check out our schedule!\",\r\n      img: img1,\r\n      btnText: \"View Schedule\",\r\n      btnUrl: \"schedule.html\"\r\n    },\r\n    {\r\n      title: \"Our food is seriously the bomb!\",\r\n      subtitle: \"What are you waiting for?\",\r\n      img: img2,\r\n      btnText: \"Purchase Tickets\",\r\n      btnUrl: \"tickets.html\"\r\n    },\r\n  ];\r\n  \r\n  carouselSlides.forEach((slide, i) => {\r\n    $('.carousel-inner').append(`\r\n  <div class=\"carousel-item fullscreen-carousel\" style=\"background-image: url('${slide.img}')\">\r\n    <div class=\"d-flex h-100 align-items-center justify-content-center carousel-caption\">\r\n        <div class=\"container\">\r\n          <div class=\"row align-items-center justify-content-center\">\r\n              <h2 class=\"display-4 mb-2\">${slide.title}</h2>\r\n          </div>\r\n          <div class=\"row align-items-center justify-content-center\"> \r\n            <h3>${slide.subtitle}</h3>\r\n          </div>\r\n          <div class=\" mt-4 row align-items-center justify-content-center\"> \r\n            <a class=\"btn btn-primary\" href=\"${slide.btnUrl}\">\r\n                ${slide.btnText}\r\n            </a>\r\n          </div>\r\n        </div>\r\n    </div>\r\n  </div>`)\r\n  })\r\n});\n\n//# sourceURL=webpack://food-festival-pwa/./assets/js/script.js?");
+eval("/* provided dependency */ var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n__webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\r\nconst img1 = __webpack_require__(/*! ../../assets/img/food-table.webp */ \"./assets/img/food-table.webp\");\r\nconst img2 = __webpack_require__(/*! ../../assets/img/grill.webp */ \"./assets/img/grill.webp\");\r\n\r\n$(document).ready(function() {\r\n  // First image is hard coded in index.html\r\n  const carouselSlides = [\r\n    {\r\n      title: \"We travel all over the US\",\r\n      subtitle: \"Check out our schedule!\",\r\n      img: img1,\r\n      btnText: \"View Schedule\",\r\n      btnUrl: \"schedule.html\"\r\n    },\r\n    {\r\n      title: \"Our food is seriously the bomb!\",\r\n      subtitle: \"What are you waiting for?\",\r\n      img: img2,\r\n      btnText: \"Purchase Tickets\",\r\n      btnUrl: \"tickets.html\"\r\n    },\r\n  ];\r\n  \r\n  carouselSlides.forEach((slide, i) => {\r\n    $('.carousel-inner').append(`\r\n  <div class=\"carousel-item fullscreen-carousel\" style=\"background-image: url('${slide.img}')\">\r\n    <div class=\"d-flex h-100 align-items-center justify-content-center carousel-caption\">\r\n        <div class=\"container\">\r\n          <div class=\"row align-items-center justify-content-center\">\r\n              <h2 class=\"display-4 mb-2\">${slide.title}</h2>\r\n          </div>\r\n          <div class=\"row align-items-center justify-content-center\"> \r\n            <h3>${slide.subtitle}</h3>\r\n          </div>\r\n          <div class=\" mt-4 row align-items-center justify-content-center\"> \r\n            <a class=\"btn btn-primary\" href=\"${slide.btnUrl}\">\r\n                ${slide.btnText}\r\n            </a>\r\n          </div>\r\n        </div>\r\n    </div>\r\n  </div>`)\r\n  })\r\n});\n\n//# sourceURL=webpack://food-festival-pwa/./assets/js/script.js?");
 
 /***/ }),
 
@@ -29,23 +29,23 @@ eval("/*!\n  * Bootstrap v4.6.1 (https://getbootstrap.com/)\n  * Copyright 2011-
 
 /***/ }),
 
-/***/ "./assets/img/food-table.jpg":
-/*!***********************************!*\
-  !*** ./assets/img/food-table.jpg ***!
-  \***********************************/
+/***/ "./assets/img/food-table.webp":
+/*!************************************!*\
+  !*** ./assets/img/food-table.webp ***!
+  \************************************/
 /***/ ((module) => {
 
-eval("module.exports = \"assets/img/food-table.jpg\";\n\n//# sourceURL=webpack://food-festival-pwa/./assets/img/food-table.jpg?");
+eval("module.exports = \"assets/img/food-table.webp\";\n\n//# sourceURL=webpack://food-festival-pwa/./assets/img/food-table.webp?");
 
 /***/ }),
 
-/***/ "./assets/img/grill.jpg":
-/*!******************************!*\
-  !*** ./assets/img/grill.jpg ***!
-  \******************************/
+/***/ "./assets/img/grill.webp":
+/*!*******************************!*\
+  !*** ./assets/img/grill.webp ***!
+  \*******************************/
 /***/ ((module) => {
 
-eval("module.exports = \"assets/img/grill.jpg\";\n\n//# sourceURL=webpack://food-festival-pwa/./assets/img/grill.jpg?");
+eval("module.exports = \"assets/img/grill.webp\";\n\n//# sourceURL=webpack://food-festival-pwa/./assets/img/grill.webp?");
 
 /***/ }),
 
